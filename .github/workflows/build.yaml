@@ -1,7 +1,6 @@
 name: Hosting Static Website
 on:
  push:
-  - master
     branches:
       - master
 jobs:
