@@ -22,7 +22,7 @@ jobs:
       - run: yarn install
       - run: yarn build
 
-        - name: 'Write config'
+      - name: 'Write config'
         run: |
           mkdir ~/.oci
           echo "[DEFAULT]" >> ~/.oci/config
